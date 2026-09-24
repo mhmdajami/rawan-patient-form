@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7fb"><title>Patient information | Dietitian Rawan Chamseddine</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#top" aria-label="Dietitian Rawan Chamseddine home"><img src="assets/clinic-logo.jpg" alt="Dietitian Rawan Chamseddine logo"><span id="brand-name"></span></a><span class="secure"><span class="secure-dot"></span> Private patient form</span></header>
+  <main id="top" class="page-shell">
+    <section class="intro"><p class="eyebrow">PATIENT QUESTIONNAIRE</p><h1>Let’s get to know you</h1><p class="intro-copy">Please complete this form before your nutrition consultation. Your answers help us understand your needs and prepare for your visit.</p><div class="form-meta"><span><b>*</b> Required field</span><span class="time-note">About 8–10 minutes</span></div></section>
+    <form id="patient-form" novalidate><div class="quiet-field" aria-hidden="true"><label for="website">Leave this field empty</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div><div id="sections"></div>
+      <section class="panel consent-panel"><h2>Before you submit</h2><p>Your answers will be emailed to the clinic. This form does not save a database copy. Resend processes the email and retains message content and delivery logs for 30 days on its Free plan; the message will also remain in the clinic inbox. Please use a private device where possible.</p></section>
+      <div class="submit-area"><p id="form-error" class="form-error" role="alert" hidden></p><button id="submit-button" type="submit"><span>Submit information</span><span aria-hidden="true">→</span></button><p class="submit-note">Your information is treated with care and confidentiality.</p></div>
+    </form>
+    <section id="success" class="success-card" hidden aria-live="polite"><div class="success-icon">✓</div><p class="eyebrow">SUBMISSION COMPLETE</p><h1>Your information has been successfully sent.</h1><p>Thank you. The clinic has been notified by email.</p><p id="submission-reference" class="reference"></p></section>
+    <footer><img src="assets/clinic-logo.jpg" alt=""><span>Dietitian Rawan Chamseddine · Patient information</span></footer>
+  </main>
+  <script src="config.js"></script><script src="form-definition.js"></script><script src="app.js"></script>
+</body>
+</html>
+
+
