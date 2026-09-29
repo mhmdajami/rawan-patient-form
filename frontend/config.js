@@ -1,4 +1,4 @@
 window.CLINIC_CONFIG = {
   clinicName: "Dietitian Rawan Chamseddine",
-  apiBaseUrl: "https://REPLACE-WITH-YOUR-NETLIFY-SITE.netlify.app/.netlify/functions/submit",
+  apiBaseUrl: "https://rawanchames.netlify.app/.netlify/functions/submit",
 };
